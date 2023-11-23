@@ -1,0 +1,34 @@
+.box1 {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  border: 3px solid red;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  width: 500px;
+  border: 3px solid red;
+}
+
+.contents {
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  border: 3px solid red;
+}
+
+.boxContainer {
+  display: flex;
+  justify-content: center;
+}
