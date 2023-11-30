@@ -1,20 +1,19 @@
-.box1 {
-  display: flex;
-  justify-content: center;
-  height: 500px;
-  width: 500px;
-  border: 3px solid red;
+* {
+  color: aqua;
 }
 
-.box2 {
-  display: flex;
-  justify-content: center;
-  height: 500px;
-  width: 500px;
-  border: 3px solid red;
+body {
+  background: url(images/abstract-uv-ultraviolet-light-composition.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
-.contents {
+.header {
+  font-size: xx-large;
+  color: maroon;
+  font-weight: bold;
 }
 
 .container {
@@ -22,13 +21,42 @@
   justify-content: center;
 }
 
-.header {
+.boxContainer {
+  margin-top: 50px;
+  border: 2px solid blue;
+  height: 500px;
+  width: 900px;
   display: flex;
-  justify-content: center;
-  border: 3px solid red;
 }
 
-.boxContainer {
-  display: flex;
-  justify-content: center;
+.box1 {
+  border: 2px solid red;
+  height: 500px;
+  width: 500px;
+}
+
+.playerInfo {
+  text-align: center;
+}
+
+#boxOneContent {
+  border: 2px solid red;
+  height: 381px;
+  text-align: start;
+}
+
+.box2 {
+  border: 2px solid red;
+  height: 500px;
+  width: 500px;
+}
+
+.computerInfo {
+  text-align: center;
+}
+
+#boxTwoContent {
+  border: 2px solid red;
+  height: 381px;
+  text-align: start;
 }
